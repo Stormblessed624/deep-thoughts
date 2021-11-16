@@ -47,7 +47,7 @@ const typeDefs = gql`
         addUser(username: String!, email: String!, password: String!): Auth
         addThought(thoughtText: String!): Thought
         addReaction(thoughtId: ID!, reactionBody: String!): Thought
-        addFriend(friendId: ID!): User
+        addFriend(friendId: ID!):
     }
 
 `;
